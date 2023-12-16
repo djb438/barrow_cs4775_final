@@ -5,6 +5,7 @@ Please see the writeup for details about the implementation of the program.
 The file main.py contains all the original work on this project.  Each method within main.py has an annotated description of its behavior.  To run a simulation, set the three fields in main(): Q_iter, t_depth, num_trees.  These fields tell the simulation how many times to refine the Q matrix, how deep of trees to simulate, and how many trees to simulate, respectively.  If you wish for the program to save .png files of the simulated and reconstructed trees, change the third field in the get_all_stats() call to True.  Note that it will overwrite the .png files for each tree it simulates and reconstructs.  
 
 The output data from the simulation/reconstruction is appended to a text file.  The columns of the text file have the following values, in order:
+
         depth: depth of tree
         mu: migration rate
         LL: log likelihood of refined tree
